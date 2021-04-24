@@ -5,3 +5,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div.container-div {
+  display: grid;
+  /* grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr); */
+  width: 400px;
+  height: 400px;
+  /* align-self: center;
+  justify-self: center; */
+  outline: 1px solid black;
+}
+
+button {
+  width: fit-content;
+  justify-self: center;
+  font-family: monospace;
+}
